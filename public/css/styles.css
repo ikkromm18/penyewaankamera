@@ -1,6 +1,25 @@
 .hero{
-    background-image: url('../images/hero.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 1)
+    ),
+    /* bottom, image */
+    url('../images/hero.jpg');
+}
+.about{
+  background: linear-gradient(
+    rgba(0,0,0,1),
+    rgb(26, 26, 26)
+  );
+}
+.services{
+  background: linear-gradient(
+    rgb(26, 26, 26),
+    rgba(26,26,26)
+  );
+}
+footer{
+  background-color: rgba(26,26,26);
 }
