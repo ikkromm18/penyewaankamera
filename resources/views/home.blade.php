@@ -26,7 +26,7 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Login</a>
+                <a class="btn" href="{{ route('backend') }}">Login</a>
             </div>
         </div>
 
@@ -36,7 +36,8 @@
             <div class="max-w-xl">
                 <h1 class="text-7xl font-bold">Selamat Datang di D'ZEN MEDIA</h1>
                 <p class="py-6 text-2xl">
-                    Sewa kamera berkualitas tinggi dengan mudah, tangkap momen spesialmu dengan lensa terbaik dan harga terjangkau.
+                    Sewa kamera berkualitas tinggi dengan mudah, tangkap momen spesialmu dengan lensa terbaik dan harga
+                    terjangkau.
                 </p>
                 <button class="btn btn-primary">Mulai Sekarang</button>
             </div>
@@ -54,7 +55,11 @@
                     <img src="./images/office.jpg" alt="Gambar office">
                 </div>
                 <div class="">
-                    <p class="mt-4 text-xl text-left leading-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, atque? Ab, doloribus incidunt ullam quia repudiandae culpa deserunt modi hic velit magni suscipit tenetur nobis dolorem, expedita quis nesciunt asperiores nihil itaque totam ipsum magnam exercitationem architecto eum ex? Voluptates accusamus quo enim maxime libero obcaecati ipsum ut laborum necessitatibus.</p>
+                    <p class="mt-4 text-xl text-left leading-10">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quae, atque? Ab, doloribus incidunt ullam quia repudiandae culpa deserunt modi hic velit
+                        magni suscipit tenetur nobis dolorem, expedita quis nesciunt asperiores nihil itaque totam ipsum
+                        magnam exercitationem architecto eum ex? Voluptates accusamus quo enim maxime libero obcaecati
+                        ipsum ut laborum necessitatibus.</p>
                 </div>
             </div>
         </div>
@@ -66,8 +71,7 @@
                 <!-- Carrds -->
                 <div class="card bg-base-100 image-full w-96 shadow-xl">
                     <figure>
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                             alt="Shoes" />
                     </figure>
                     <div class="card-body">
@@ -81,8 +85,7 @@
 
                 <div class="card bg-base-100 image-full w-96 shadow-xl">
                     <figure>
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                             alt="Shoes" />
                     </figure>
                     <div class="card-body">
@@ -96,8 +99,7 @@
 
                 <div class="card bg-base-100 image-full w-96 shadow-xl">
                     <figure>
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                             alt="Shoes" />
                     </figure>
                     <div class="card-body">
@@ -111,8 +113,7 @@
 
                 <div class="card bg-base-100 image-full w-96 shadow-xl">
                     <figure>
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                             alt="Shoes" />
                     </figure>
                     <div class="card-body">
@@ -126,8 +127,7 @@
 
                 <div class="card bg-base-100 image-full w-96 shadow-xl">
                     <figure>
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                             alt="Shoes" />
                     </figure>
                     <div class="card-body">
