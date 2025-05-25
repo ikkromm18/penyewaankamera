@@ -21,6 +21,7 @@ return new class extends Migration
             $table->time('waktu');
             $table->integer('drone')->default(null);
             $table->integer('jimijib')->default(null);
+            $table->enum('status', ['diterima', 'ditolak', 'belum direspon'])->default('belum direspon');
             $table->integer('total_harga');
             $table->timestamps();
         });

@@ -18,14 +18,14 @@
 </head>
 
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-    @include('mycomponents.navbar')
 
+    @include('mycomponents.aside')
 
     <main>
         @yield('content')
     </main>
 
-    @include('mycomponents.footer')
+
 
     {{-- <script src="../path/to/flowbite/dist/flowbite.min.js"></script> --}}
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.7/flowbite.min.js"></script> --}}

@@ -18,9 +18,11 @@ class TransaksiController extends Controller
 
     public function order()
     {
+        $transaksis = Transaksi::all();
+
         $acaras = Acara::all();
         $bookedDates = Transaksi::pluck('tanggal')->toArray();
-        return view('landing.order', compact('acaras', 'bookedDates'));
+        return view('landing.order', compact('transaksis', 'acaras', 'bookedDates'));
     }
 
     public function store(Request $request)

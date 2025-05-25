@@ -120,10 +120,17 @@
             <h2 class="text-xl font-semibold mt-8">Tanggal yang Sudah Dibooking</h2>
             <ul class="list-disc list-inside  p-4 rounded-md">
                 @foreach ($bookedDates as $date)
-                    <li>{{ \Carbon\Carbon::parse($date)->format('d M Y') }}</li>
+                    @foreach ($transaksis as $t)
+                        <li>{{ \Carbon\Carbon::parse($date)->format('d M Y') }} ({{ $t->status }})</li>
+                    @endforeach
                 @endforeach
             </ul>
         </div>
+
+
+
+
+
 
     </div>
 
